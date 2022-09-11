@@ -1,9 +1,12 @@
 package core.basesyntax;
 
+import core.basesyntax.dto.InputDto;
 import core.basesyntax.gui.screen.HomeScreen;
-import core.basesyntax.model.Role;
-import core.basesyntax.service.RandomizerService;
+import core.basesyntax.service.ProcessorService;
+import core.basesyntax.service.ProcessorServiceImpl;
 import core.basesyntax.service.RandomizerServiceImpl;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
